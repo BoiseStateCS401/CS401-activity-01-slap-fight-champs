@@ -1,5 +1,6 @@
 body {
-    background-color: #81a2a7;
+    /*background-color: #81a2a7;*/
+	background: linear-gradient(red, yellow);
 }
 
 
@@ -16,12 +17,12 @@ h1 {
 
 h2 {
 	font-size: 25px;
-	font-family: courier;
+	font-family: Consolas;
 	text-align: center;
 }
 
 ul, ol, p{
-	color: #990000;
+	color: #000099;
 	
 }
 
@@ -65,7 +66,7 @@ em {
 
 
 .resources a:link, a:visited {
-    background-color: #ff471a;
+    background-color: #800000;
     color: white;
     padding: 10px 20px;
     text-align: center;
