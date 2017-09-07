@@ -1,5 +1,5 @@
 # My First Website
-https://github.com/BoiseStateCS401/CS401-activity-01-slap-fight-champs
+https://boisestatecs401.github.io/CS401-activity-01-slap-fight-champs/
 ## Learning Objectives
 
 * Create a well-designed web page using semantic HyperText Markup Language (HTML) and Cascading Style Sheets (CSS).
