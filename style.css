@@ -1,0 +1,76 @@
+body {
+    background-color: lightgreen;
+}
+
+
+html * {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: serif;
+	text-align: center;
+}
+
+h2 {
+	font-size: 25px;
+	font-family: courier;
+	text-align: center;
+}
+
+ul, ol, p{
+	color: red;
+	
+}
+
+ul li{
+	list-style: square;
+	line-height: 200%;
+}
+
+
+.weathers ul li {
+	list-style: circle;
+}
+
+
+ol{
+	list-style-type: circle;
+}
+
+em {
+	color: yellow;
+}
+
+a:link, a:visited {
+    background-color: #f22551;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+	border-radius: 10%;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+pre {
+	
+	background-color: darkblue;
+	line-height: 200%;
+	color: white;
+    padding: 10px 20px;
+	border-style: solid;
+	border-width: 2px 10px 4px 20px;
+}
+
+code {
+	font-family: courier;
+}
+
