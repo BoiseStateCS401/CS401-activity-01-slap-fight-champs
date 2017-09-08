@@ -29,7 +29,7 @@ ul, ol, p{
 }
 
 li{
-	/*list-style: circle;*/
+	list-style: square;
 	line-height: 200%;
 }
 
