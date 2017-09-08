@@ -70,7 +70,7 @@ code {
 }
 
 table {
-	align: center;
+	text-align: center;
 	width: 500px;
 }
 
@@ -112,7 +112,7 @@ th {
 }
 
 .drinks h2{
-	text-family: Rockwell;	
+	font-family: Rockwell;	
 }
 
 .pageinfo{
