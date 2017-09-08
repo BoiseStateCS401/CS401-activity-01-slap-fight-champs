@@ -28,13 +28,13 @@ ul, ol, p{
 	color: #000099;
 }
 
-ul li{
-	list-style: square;
+li{
+	/*list-style: circle;*/
 	line-height: 200%;
 }
 
-ol{
-	list-style-type: circle;
+li>ul>li {
+	list-style: circle;
 }
 
 em {
@@ -119,7 +119,5 @@ th {
 	padding-left: 20%;
 }
 
-.sublists ul li {
-	list-style: circle;
-}
+
 
