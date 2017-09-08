@@ -1,5 +1,4 @@
 body {
-    /*background-color: #81a2a7;*/
 	background: linear-gradient(red, yellow);
 }
 
@@ -19,6 +18,12 @@ h2 {
 	text-align: center;
 }
 
+p{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: .5cm;
+}
+
 ul, ol, p{
 	color: #000099;
 }
@@ -28,45 +33,12 @@ ul li{
 	line-height: 200%;
 }
 
-.weathers ul li {
-	list-style: circle;
-}
-
-.resources {
-	text-align: center;
-}
-
-.drinks{
-	padding-left: 33%;
-}
-
-.drinks h2{
-	text-family: Rockwell;	
-}
-
-.fall{
-	padding-left: 20%;
-}
-
 ol{
 	list-style-type: circle;
 }
 
 em {
 	color: yellow;
-}
-
-.resources a:link, a:visited {
-    background-color: #800000;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-} 
-
-.animals {
-	text-align: center;
 }
 
 img{
@@ -96,24 +68,58 @@ pre {
 code {
 	font-family: courier;
 }
+
 table {
 	align: center;
+	width: 500px;
 }
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 	background-color: gray;
 }
+
 th, td {
     padding: 5px;
 }
+
 th {
     text-align: left;
 }
 
-p{
-	padding-left: 20%;
-	padding-right: 20%;
-	padding-top: .5cm;
-	
+
+/* Classes */
+.resources a:link, a:visited {
+    background-color: #800000;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+} 
+
+.resources {
+	text-align: center;
 }
+
+.animals {
+	text-align: center;
+}
+
+.drinks{
+	padding-left: 33%;
+}
+
+.drinks h2{
+	text-family: Rockwell;	
+}
+
+.pageinfo{
+	padding-left: 20%;
+}
+
+.sublists ul li {
+	list-style: circle;
+}
+
