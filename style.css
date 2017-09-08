@@ -109,6 +109,7 @@ table {
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+	background-color: gray;
 }
 th, td {
     padding: 5px;
