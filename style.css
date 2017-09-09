@@ -89,14 +89,25 @@ th {
 
 
 /* Classes */
-.resources a:link, a:visited {
-    background-color: #800000;
+.resources a:link, a:visited{
     color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 } 
+
+.resources a:link{
+	background-color: #800000;
+}
+
+.resources a:visited{
+	background-color: darkred;
+}
+
+.resources a:hover{
+	background-color: #990000;
+}
 
 .resources, .animals {
 	text-align: center;
