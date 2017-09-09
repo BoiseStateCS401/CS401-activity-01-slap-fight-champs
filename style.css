@@ -99,11 +99,7 @@ th {
     display: inline-block;
 } 
 
-.resources {
-	text-align: center;
-}
-
-.animals {
+.resources, .animals {
 	text-align: center;
 }
 
