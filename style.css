@@ -30,6 +30,8 @@ ul, ol, p{
 }
 
 li{
+	display:inline; /*newly added, not tested*/
+	
 	list-style: square;
 	line-height: 200%;
 }
